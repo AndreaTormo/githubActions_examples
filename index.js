@@ -8,3 +8,5 @@ const server = http.createServer((req, res) => {
 server.listen(3000, () => {
   console.log('Servidor escoltant en el port 3000');
 });
+
+const variableNoUtilitzada = 123;
